@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computación Cuántica</title>
+
+  <!-- Bootstrap por CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <!-- Estilos propios sencillos -->
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding-top: 70px;
+      padding-bottom: 40px;
+    }
+    .hero {
+      background-color: #0d6efd;
+      color: #ffffff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Computación Cuántica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#menu" aria-controls="menu"
+              aria-expanded="false" aria-label="Menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#que-es">¿Qué es?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aplicaciones">Aplicaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ventajas">Ventajas y retos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== SECCIÓN 1: INICIO (HERO) ====== -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Computación Cuántica</h1>
+      <p class="lead">Una introducción sencilla a una de las tecnologías más interesantes del futuro.</p>
+      <a href="#que-es" class="btn btn-light btn-lg mt-2">Saber más</a>
+    </div>
+  </section>
+
+  <!-- ====== SECCIÓN 2: ¿QUÉ ES? ====== -->
+  <section id="que-es" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">¿Qué es la Computación Cuántica?</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3">
+          <img src="computacion.jpg" class="img-fluid rounded" alt="Computación cuántica">
+        </div>
+        <div class="col-md-6">
+          <p>
+            La computación cuántica es un tipo de computación que usa los principios
+            de la física cuántica para procesar información de una forma distinta a
+            las computadoras normales.
+          </p>
+          <p>
+            Mientras una computadora común usa bits (0 o 1), una computadora cuántica
+            usa <strong>qubits</strong>, que pueden representar varios estados a la vez.
+            Esto le permite resolver ciertos problemas mucho más rápido.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECCIÓN 3: APLICACIONES (CARDS) ====== -->
+  <section id="aplicaciones">
+    <div class="container">
+      <h2 class="text-center mb-4">Aplicaciones</h2>
+      <div class="row">
+
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="https://placehold.co/400x200?text=Medicina"
+                 class="card-img-top" alt="Medicina">
+            <div class="card-body">
+              <h5 class="card-title">Medicina</h5>
+              <p class="card-text">
+                Ayuda a simular moléculas para crear nuevos medicamentos
+                de manera más rápida.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="https://placehold.co/400x200?text=Seguridad"
+                 class="card-img-top" alt="Seguridad">
+            <div class="card-body">
+              <h5 class="card-title">Seguridad</h5>
+              <p class="card-text">
+                Permite mejorar el cifrado de datos y la protección de
+                la información.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="https://placehold.co/400x200?text=Investigacion"
+                 class="card-img-top" alt="Investigación">
+            <div class="card-body">
+              <h5 class="card-title">Investigación</h5>
+              <p class="card-text">
+                Sirve para resolver problemas científicos complejos que
+                tardarían años en una computadora normal.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECCIÓN 4: VENTAJAS Y RETOS (INFORMATIVA) ====== -->
+  <section id="ventajas" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Ventajas y retos</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h4>Ventajas</h4>
+          <ul>
+            <li>Mayor velocidad en ciertos cálculos.</li>
+            <li>Puede resolver problemas muy complejos.</li>
+            <li>Útil para la ciencia y la investigación.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h4>Retos</h4>
+          <ul>
+            <li>Las computadoras cuánticas son muy caras.</li>
+            <li>Necesitan condiciones especiales para funcionar.</li>
+            <li>Todavía están en desarrollo.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SECCIÓN 5: CONTACTO (FORMULARIO) ====== -->
+  <section id="contacto">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto o más información</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3"
+                      placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">Sitio sobre Computación Cuántica &copy; 2025</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS por CDN (necesario para el navbar en móvil) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
